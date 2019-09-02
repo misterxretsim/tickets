@@ -1,6 +1,12 @@
-import Vue    from 'vue'
-import helper from '../../mixins/helper'
+import Vue from 'vue'
 
 export default Vue.extend({
-    mixins: [helper]
+    methods: {
+        updateLogin(value) {
+            this.$store.commit('updateLogin', value)
+        },
+        updatePass(value) {
+            this.$store.commit('updatePass', value)
+        }
+    }
 })
