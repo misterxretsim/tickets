@@ -11,47 +11,194 @@ export default {
         tickets: [
             {
                 id: 1,
+                author: 2,
                 title: 'Название',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
                       ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
                       ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
-                status: 'active'
+                status: 'success'
             },
             {
                 id: 2,
+                author: 2,
                 title: 'Название',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
                       ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
                       ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
-                status: 'active'
+                status: 'success'
             },
             {
                 id: 3,
+                author: 3,
                 title: 'Название',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
                       ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
                       ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
-                status: 'closed'
+                status: 'default'
             },
             {
                 id: 4,
+                author: 2,
                 title: 'Название',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
                       ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
                       ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
-                status: 'active'
+                status: 'success'
             },
-        ]
+            {
+                id: 5,
+                author: 3,
+                title: 'Название',
+                body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
+                      'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
+                      'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
+                      ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
+                      ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
+                status: 'default'
+            },
+            {
+                id: 6,
+                author: 4,
+                title: 'Название',
+                body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
+                      'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
+                      'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
+                      ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
+                      ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
+                status: 'default'
+            },
+            {
+                id: 7,
+                author: 4,
+                title: 'Название',
+                body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
+                      'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
+                      'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
+                      ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
+                      ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
+                status: 'default'
+            },
+            {
+                id: 8,
+                author: 2,
+                title: 'Название',
+                body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
+                      'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
+                      'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
+                      ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
+                      ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
+                status: 'default'
+            },
+            {
+                id: 9,
+                author: 3,
+                title: 'Название',
+                body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
+                      'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
+                      'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
+                      ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
+                      ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
+                status: 'default'
+            },
+            {
+                id: 10,
+                author: 4,
+                title: 'Название',
+                body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
+                      'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
+                      'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
+                      ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
+                      ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
+                status: 'default'
+            },
+            {
+                id: 11,
+                author: 2,
+                title: 'Название',
+                body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
+                      'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
+                      'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
+                      ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
+                      ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
+                status: 'default'
+            },
+            {
+                id: 12,
+                author: 3,
+                title: 'Название',
+                body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
+                      'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
+                      'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
+                      ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
+                      ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
+                status: 'default'
+            },
+            {
+                id: 13,
+                author: 4,
+                title: 'Название',
+                body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
+                      'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
+                      'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
+                      ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
+                      ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
+                status: 'deleted'
+            },
+            {
+                id: 14,
+                author: 2,
+                title: 'Название',
+                body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
+                      'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
+                      'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
+                      ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
+                      ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
+                status: 'default'
+            },
+            {
+                id: 15,
+                author: 3,
+                title: 'Название',
+                body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
+                      'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
+                      'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
+                      ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
+                      ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
+                status: 'default'
+            }
+        ],
+        activeTickets: [],
+        activeTicketsByLogin: []
     },
     getters: {
-        tickets: (state) => state.tickets
+        tickets: (state) => state.tickets,
+        activeTickets: (state) => {
+            let arr = [];
+            for (let i = 0; i < state.tickets.length; i++) {
+                if (state.tickets[i].status !== 'deleted') {
+                    arr.push(state.tickets[i]);
+                }
+            }
+            state.activeTickets = arr;
+            return state.activeTickets
+        },
+        activeTicketsById: (state) => (id) => {
+            let arr = [];
+            for (let i = 0; i < state.tickets.length; i++) {
+                if (state.tickets[i].status !== 'deleted' && state.tickets[i].author === id) {
+                    arr.push(state.tickets[i]);
+                }
+            }
+            state.activeTicketsByLogin = arr;
+            return state.activeTicketsByLogin
+        }
     }
 }
