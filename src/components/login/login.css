@@ -11,3 +11,19 @@ form {
 #loginForm {
     min-width: 300px;
 }
+
+.input-group-text {
+    background: white;
+}
+
+@-webkit-keyframes autofill {
+    to {
+        color: inherit;
+        background: transparent;
+    }
+}
+  
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}

@@ -9,7 +9,7 @@ export default Vue.extend({
     },
     created() {
         if (!this.$store.getters.userByPass) {
-            location.href = '/#/login'
+            this.$router.push('/login')
         }
     }
 })

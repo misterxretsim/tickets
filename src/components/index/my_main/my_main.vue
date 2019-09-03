@@ -20,7 +20,7 @@
               title="Delete ticket"
               @click="onDelete(ticket.id)"
             ></b-btn-close>
-            <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+            <b-card-text>{{ ticket.title }}</b-card-text>
             <div>
               <small class="text-muted by">Ticket#{{ticket.id}} by {{author(ticket.author)}}</small>
             </div>
@@ -42,7 +42,7 @@
             :header-text-variant="ticket.status"
             align="center"
           >
-            <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+            <b-card-text>{{ ticket.title }}</b-card-text>
             <div>
               <small class="text-muted by">Ticket#{{ticket.id}} by {{author(ticket.author)}}</small>
             </div>

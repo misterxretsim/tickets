@@ -12,7 +12,7 @@ export default {
             {
                 id: 1,
                 author: 2,
-                title: 'Название',
+                title: 'The first theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -23,7 +23,7 @@ export default {
             {
                 id: 2,
                 author: 2,
-                title: 'Название',
+                title: 'The second theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -34,7 +34,7 @@ export default {
             {
                 id: 3,
                 author: 2,
-                title: 'Название',
+                title: 'The fird theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -45,7 +45,7 @@ export default {
             {
                 id: 4,
                 author: 2,
-                title: 'Название',
+                title: 'The fourth theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -56,7 +56,7 @@ export default {
             {
                 id: 5,
                 author: 3,
-                title: 'Название',
+                title: 'The fifth theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -67,7 +67,7 @@ export default {
             {
                 id: 6,
                 author: 4,
-                title: 'Название',
+                title: 'The sixth theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -78,7 +78,7 @@ export default {
             {
                 id: 7,
                 author: 4,
-                title: 'Название',
+                title: 'The first theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -89,7 +89,7 @@ export default {
             {
                 id: 8,
                 author: 2,
-                title: 'Название',
+                title: 'The second theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -100,7 +100,7 @@ export default {
             {
                 id: 9,
                 author: 3,
-                title: 'Название',
+                title: 'The fird theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -111,7 +111,7 @@ export default {
             {
                 id: 10,
                 author: 4,
-                title: 'Название',
+                title: 'The fourth theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -122,18 +122,18 @@ export default {
             {
                 id: 11,
                 author: 2,
-                title: 'Название',
+                title: 'The fifth theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
                       ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
                       ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
-                status: 'default'
+                status: 'success'
             },
             {
                 id: 12,
                 author: 3,
-                title: 'Название',
+                title: 'The sixth theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -144,7 +144,7 @@ export default {
             {
                 id: 13,
                 author: 4,
-                title: 'Название',
+                title: 'The first theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -155,7 +155,7 @@ export default {
             {
                 id: 14,
                 author: 2,
-                title: 'Название',
+                title: 'The second theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -166,7 +166,7 @@ export default {
             {
                 id: 15,
                 author: 3,
-                title: 'Название',
+                title: 'The fird theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -175,11 +175,20 @@ export default {
                 status: 'default'
             }
         ],
+        themes: [
+            {text: 'The first theme'},
+            {text: 'The second theme'},
+            {text: 'The fird theme'},
+            {text: 'The fourth theme'},
+            {text: 'The fifth theme'},
+            {text: 'The sixth theme'},
+        ],
         activeTickets: [],
         activeTicketsByLogin: []
     },
     getters: {
         tickets: (state) => state.tickets,
+        themes: (state) => state.themes,
         activeTickets: (state) => {
             let arr = [];
             for (let i = 0; i < state.tickets.length; i++) {

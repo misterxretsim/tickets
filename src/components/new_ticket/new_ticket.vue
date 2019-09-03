@@ -1,5 +1,8 @@
 <template>
-  <my_header></my_header>
+  <div>
+    <my_header></my_header>
+    <creating_ticket></creating_ticket>
+  </div>
 </template>
 
 <script src="./new_ticket.js"></script>

@@ -1,11 +1,15 @@
 #my_content {
-	min-width: 480px !important;
+	min-width: 330px !important;
 }
 
 .by {
 	position: absolute;
 	left: 10px;
 	bottom: 2px;
+	opacity: .5;
+}
+.by:hover {
+	opacity: .8;
 }
 
 #delete {
