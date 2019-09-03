@@ -17,6 +17,9 @@ export default Vue.extend({
 				solid: true,
 				appendToast: true
 			})
+		},
+		onClick() {
+			this.$router.push('/support')
 		}
 	}
 })

@@ -12,6 +12,7 @@
             :header-border-variant="ticket.status"
             :header-text-variant="ticket.status"
             align="center"
+            @click="onClick"
           >
             <b-btn-close
               text-variant="muted"
@@ -41,6 +42,7 @@
             :header-border-variant="ticket.status"
             :header-text-variant="ticket.status"
             align="center"
+            @click="onClick"
           >
             <b-card-text>{{ ticket.title }}</b-card-text>
             <div>
