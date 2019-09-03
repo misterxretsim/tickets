@@ -10,6 +10,11 @@
 
 #delete {
 	position: absolute;
-	top: 5px;
-	right: 5px;
+	top: 0;
+	right: 3px;
+	outline: none;
+}
+
+button.close {
+	outline: none;
 }

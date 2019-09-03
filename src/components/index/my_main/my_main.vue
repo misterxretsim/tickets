@@ -13,7 +13,13 @@
             :header-text-variant="ticket.status"
             align="center"
           >
-            <b-btn-close id="delete" v-b-tooltip.hover title="Delete ticket" @click="onDelete(ticket.id)"></b-btn-close>
+            <b-btn-close
+              text-variant="muted"
+              id="delete"
+              v-b-tooltip.hover
+              title="Delete ticket"
+              @click="onDelete(ticket.id)"
+            ></b-btn-close>
             <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
             <div>
               <small class="text-muted by">Ticket#{{ticket.id}} by {{author(ticket.author)}}</small>
@@ -22,6 +28,9 @@
         </b-card-group>
       </b-col>
       <b-col cols="6" id="my_content" v-else>
+        <b-link to="/new_ticket">
+          <b-button block class="mb-4 mt-3" variant="outline-primary">Create new ticket</b-button>
+        </b-link>
         <b-card-group
           class="mb-3"
           v-for="ticket in this.$store.getters.activeTicketsById(this.$store.getters.userIdByLogin)"

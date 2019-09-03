@@ -18,8 +18,8 @@ export default{
             {
                 id: 2,
                 username: 'Alexey',
-                login: 'alex@bk.ru',
-                password: 'qwerty'
+                login: 'a',
+                password: 'a'
             },
             {
                 id: 3,

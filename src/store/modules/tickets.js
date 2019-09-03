@@ -33,7 +33,7 @@ export default {
             },
             {
                 id: 3,
-                author: 3,
+                author: 2,
                 title: 'Название',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
