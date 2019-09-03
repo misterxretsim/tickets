@@ -7,3 +7,7 @@ a {
 form {
     margin-top: 50%;
 }
+
+#loginForm {
+    min-width: 300px;
+}

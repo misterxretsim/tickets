@@ -1,7 +1,7 @@
 <template>
   <b-container fluid>
     <b-row align-h="center">
-      <b-col cols="4">
+      <b-col cols="4" id="loginForm">
         <b-form @submit.prevent>
           <b-form-group id="input-group-1" label="Login:" label-for="input-1">
             <b-input-group prepend="✉️">

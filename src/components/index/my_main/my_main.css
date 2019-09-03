@@ -1,9 +1,15 @@
 #my_content {
-	min-width: 450px !important;
+	min-width: 480px !important;
 }
 
 .by {
 	position: absolute;
 	left: 10px;
 	bottom: 2px;
+}
+
+#delete {
+	position: absolute;
+	top: 5px;
+	right: 5px;
 }
