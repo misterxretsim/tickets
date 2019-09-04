@@ -18,8 +18,10 @@ export default Vue.extend({
 				appendToast: true
 			})
 		},
-		onClick() {
-			this.$router.push('/support')
+		onClick(e) {
+			if (e.target.classList[0] !== 'close') {
+				this.$router.push('/support')
+			}
 		}
 	}
 })
