@@ -1,29 +1,47 @@
 html, body {
     height:100%;
+    background: #F8FCFF !important;
+    overflow-x: hidden;
 }
+
 a { 
     text-decoration: none !important;
 }
+
 form {
     margin-top: 50%;
 }
 
 #loginForm {
     min-width: 300px;
+    max-width: 390px;
 }
 
 .input-group-text {
     background: white;
+    border: 1px solid #007bff;
+	box-shadow: 0 10px 24px rgba(0,0,0,0.1);
 }
 
 @-webkit-keyframes autofill {
     to {
         color: inherit;
-        background: transparent;
+        background: white;;
     }
 }
   
 input:-webkit-autofill {
     -webkit-animation-name: autofill;
     -webkit-animation-fill-mode: both;
+}
+
+.btn {
+	background: white;
+	box-shadow: 0 10px 24px rgba(0,0,0,0.1);
+}
+
+.form-control {
+    background: white;
+    border: 1px solid #007bff;
+	box-shadow: 0 10px 24px rgba(0,0,0,0.1);
 }

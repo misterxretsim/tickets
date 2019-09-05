@@ -1,6 +1,13 @@
 html, body {
    height:100%;
+   background: #F8FCFF !important;
+   overflow-x: hidden;
 }
+
 a { 
    text-decoration: none !important;
+}
+
+.btn {
+	background: white;
 }

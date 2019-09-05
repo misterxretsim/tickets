@@ -12,7 +12,8 @@ export default {
             {
                 id: 1,
                 author: 2,
-                title: 'The first theme',
+                title: 'Some title',
+                theme: 'The first theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -23,7 +24,8 @@ export default {
             {
                 id: 2,
                 author: 2,
-                title: 'The second theme',
+                title: 'Some title',
+                theme: 'The second theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -34,7 +36,8 @@ export default {
             {
                 id: 3,
                 author: 2,
-                title: 'The fird theme',
+                title: 'Some title',
+                theme: 'The fird theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -45,7 +48,8 @@ export default {
             {
                 id: 4,
                 author: 2,
-                title: 'The fourth theme',
+                title: 'Some title',
+                theme: 'The fourth theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -56,7 +60,8 @@ export default {
             {
                 id: 5,
                 author: 3,
-                title: 'The fifth theme',
+                title: 'Some title',
+                theme: 'The fifth theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -67,7 +72,8 @@ export default {
             {
                 id: 6,
                 author: 4,
-                title: 'The sixth theme',
+                title: 'Some title',
+                theme: 'The sixth theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -78,7 +84,8 @@ export default {
             {
                 id: 7,
                 author: 4,
-                title: 'The first theme',
+                title: 'Some title',
+                theme: 'The first theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -89,7 +96,8 @@ export default {
             {
                 id: 8,
                 author: 2,
-                title: 'The second theme',
+                title: 'Some title',
+                theme: 'The second theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -100,7 +108,8 @@ export default {
             {
                 id: 9,
                 author: 3,
-                title: 'The fird theme',
+                title: 'Some title',
+                theme: 'The fird theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -111,7 +120,8 @@ export default {
             {
                 id: 10,
                 author: 4,
-                title: 'The fourth theme',
+                title: 'Some title',
+                theme: 'The fourth theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -122,7 +132,8 @@ export default {
             {
                 id: 11,
                 author: 2,
-                title: 'The fifth theme',
+                title: 'Some title',
+                theme: 'The fifth theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -133,7 +144,8 @@ export default {
             {
                 id: 12,
                 author: 3,
-                title: 'The sixth theme',
+                title: 'Some title',
+                theme: 'The sixth theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -144,7 +156,8 @@ export default {
             {
                 id: 13,
                 author: 4,
-                title: 'The first theme',
+                title: 'Some title',
+                theme: 'The first theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -155,7 +168,8 @@ export default {
             {
                 id: 14,
                 author: 2,
-                title: 'The second theme',
+                title: 'Some title',
+                theme: 'The second theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -166,7 +180,8 @@ export default {
             {
                 id: 15,
                 author: 3,
-                title: 'The fird theme',
+                title: 'Some title',
+                theme: 'The fird theme',
                 body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dolor a ' + 
                       'purus vulputate, a aliquam magna tristique. Vivamus ut arcu vel justo pharetra ' + 
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
@@ -188,6 +203,7 @@ export default {
     },
     getters: {
         tickets: (state) => state.tickets,
+        title: (state) => state.title,
         themes: (state) => state.themes,
         activeTickets: (state) => {
             let arr = [];

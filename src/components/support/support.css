@@ -1,0 +1,12 @@
+body {
+    background: #F8FCFF !important;
+    overflow-x: hidden;
+}
+
+.btn {
+	background: white;
+}
+
+.form-control {
+	background: white;
+}

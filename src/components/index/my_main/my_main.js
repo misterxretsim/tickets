@@ -12,7 +12,6 @@ export default Vue.extend({
 			});
 			this.$bvToast.toast(`Ticket#${id} was deleted`, {
 				title: 'Notification',
-				variant: 'secondary',
 				toaster: 'b-toaster-bottom-right',
 				solid: true,
 				appendToast: true

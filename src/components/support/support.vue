@@ -2,6 +2,7 @@
   <div>
     <my_header></my_header>
     <my_mail></my_mail>
+    <bottom_button></bottom_button>
   </div>
 </template>
 

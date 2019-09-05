@@ -26,7 +26,7 @@
             </b-input-group>
           </b-form-group>
           <b-link to="/">
-            <b-button type="submit" block variant="outline-dark">Submit</b-button>
+            <b-button type="submit" block variant="outline-primary">Submit</b-button>
           </b-link>
         </b-form>
       </b-col>
