@@ -67,6 +67,7 @@ export default Vue.extend({
 				&& ticket.body.length <= 140 && ticket.body.length >= 10
 				&& ticket.title.length <= 30 && ticket.title.length >= 3) {
 				this.$store.commit('addTicket', ticket)
+				this.$store.commit('addMessage')
 				this.$router.push('/')
 			}
 		}

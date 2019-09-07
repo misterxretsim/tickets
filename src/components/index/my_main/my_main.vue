@@ -13,7 +13,7 @@
             :header-border-variant="ticket.status"
             :header-text-variant="ticket.status"
             align="center"
-            @click="onClick"
+            @click="onClick(ticket.id, $event)"
           >
             <b-btn-close
               text-variant="muted"
@@ -22,7 +22,8 @@
               title="Delete ticket"
               @click="onDelete(ticket.id)"
             ></b-btn-close>
-            <b-card-text>{{ ticket.body.substr(0, 50) + '...' }}</b-card-text>
+            <b-card-text v-if="ticket.body.length > 49">{{ ticket.body.substr(0, 50) + '...' }}</b-card-text>
+            <b-card-text v-else>{{ ticket.body }}</b-card-text>
             <div>
               <small class="text-muted by">{{'by ' + author(ticket.author)}}</small>
             </div>
@@ -39,9 +40,10 @@
             :header-border-variant="ticket.status"
             :header-text-variant="ticket.status"
             align="center"
-            @click="onClick"
+            @click="onClick(ticket.id, $event)"
           >
-            <b-card-text>{{ ticket.body.substr(0, 50) + '...' }}</b-card-text>
+            <b-card-text v-if="ticket.body.length > 49">{{ ticket.body.substr(0, 50) + '...' }}</b-card-text>
+            <b-card-text v-else>{{ ticket.body }}</b-card-text>
             <div>
               <small class="text-muted by">{{'by ' + author(ticket.author)}}</small>
             </div>

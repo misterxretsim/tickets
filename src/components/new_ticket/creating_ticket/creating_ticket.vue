@@ -3,18 +3,20 @@
     <b-row align-h="center">
       <b-col cols="6" id="create_ticket">
         <b-form-group class="mt-4" label="Theme:" label-for="select-1">
-          <b-form-select
-            v-model="selected"
-            id="select-1" :options="this.$store.getters.themes">
+          <b-form-select v-model="selected" id="select-1" :options="this.$store.getters.themes">
             <template slot="first">
               <option :value="null" disabled>-- Please select a theme --</option>
             </template>
           </b-form-select>
         </b-form-group>
-		<b-form-group class="mt-4" label="Title:" label-for="input-title">
-          <b-form-input 
+        <b-form-group class="mt-4" label="Title:" label-for="input-title">
+          <b-form-input
             v-model="title"
-            :state="title.length > 2 && title.length < 31" id="input-title" type="text" placeholder="Title"></b-form-input>
+            :state="title.length > 2 && title.length < 31"
+            id="input-title"
+            type="text"
+            placeholder="Title"
+          ></b-form-input>
         </b-form-group>
         <b-form-group label="Description:" label-for="textarea-1">
           <b-form-textarea

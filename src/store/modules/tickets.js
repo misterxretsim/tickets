@@ -3,8 +3,14 @@ export default {
         addTicket(state, ticket) {
             state.tickets.push(ticket)
         },
-        changeStatus(state, obj) {
-            state.tickets.find((ticket) => ticket.id === obj.id).status = obj.status
+        changeStatus(state, status) {
+            state.tickets.find((ticket) => ticket.id === state.currentTicket).status = status
+        },
+        deleteTicket(state, id){
+            state.tickets.find((ticket) => ticket.id === id).status = 'deleted'
+        },
+        updateCurrentTicket(state, id) {
+            state.currentTicket = id
         }
     },
     state: {
@@ -199,12 +205,19 @@ export default {
             {text: 'The sixth theme'},
         ],
         activeTickets: [],
-        activeTicketsByLogin: []
+        activeTicketsByLogin: [],
+        currentTicket: 1,
     },
     getters: {
         tickets: (state) => state.tickets,
         title: (state) => state.title,
         themes: (state) => state.themes,
+        status: (state) => {
+            const status = state.tickets.find(ticket => ticket.id === state.currentTicket).status
+            if (status === 'default') return 'opened'
+            else return 'closed'
+        },
+        currentTicket: (state) => state.currentTicket,
         activeTickets: (state) => {
             let arr = [];
             for (let i = 0; i < state.tickets.length; i++) {

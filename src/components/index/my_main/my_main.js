@@ -6,10 +6,7 @@ export default Vue.extend({
 			return this.$store.getters.usernameById(id).username
 		},
 		onDelete (id) {
-			this.$store.commit('changeStatus', {
-				id: id,
-				status: 'deleted'
-			});
+			this.$store.commit('deleteTicket', id)
 			this.$bvToast.toast(`Ticket#${id} was deleted`, {
 				title: 'Notification',
 				toaster: 'b-toaster-bottom-right',
@@ -17,8 +14,9 @@ export default Vue.extend({
 				appendToast: true
 			})
 		},
-		onClick(e) {
+		onClick(id, e) {
 			if (e.target.classList[0] !== 'close') {
+				this.$store.commit('updateCurrentTicket', id);
 				this.$router.push('/support')
 			}
 		}
