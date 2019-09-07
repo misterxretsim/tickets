@@ -6,6 +6,9 @@ export default {
         changeStatus(state, status) {
             state.tickets.find((ticket) => ticket.id === state.currentTicket).status = status
         },
+        changeStatusById(state, obj) {
+            state.tickets.find((ticket) => ticket.id === obj.id).status = obj.status
+        },
         deleteTicket(state, id){
             state.tickets.find((ticket) => ticket.id === id).status = 'deleted'
         },
@@ -49,7 +52,7 @@ export default {
                       'volutpat. Etiam lacinia magna eget nulla euismod dictum. Donec suscipit, elit non' +
                       ' aliquet aliquam, velit tellus bibendum leo, sit amet faucibus ipsum felis sed elit.' +
                       ' Mauris ac malesuada ante. Vivamus id facilisis sapien.',
-                status: 'default'
+                status: 'deleted'
             },
             {
                 id: 4,
@@ -207,6 +210,7 @@ export default {
         activeTickets: [],
         activeTicketsByLogin: [],
         currentTicket: 1,
+        deletedTickets: []
     },
     getters: {
         tickets: (state) => state.tickets,
@@ -237,6 +241,16 @@ export default {
             }
             state.activeTicketsByLogin = arr;
             return state.activeTicketsByLogin
+        },
+        deletedTickets: (state) => {
+            let arr = [];
+            for (let i = 0; i < state.tickets.length; i++) {
+                if (state.tickets[i].status === 'deleted') {
+                    arr.push(state.tickets[i]);
+                }
+            }
+            state.deletedTickets = arr;
+            return state.deletedTickets
         }
     }
 }
