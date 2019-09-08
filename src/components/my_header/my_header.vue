@@ -42,7 +42,7 @@
         <b-nav-item href="#/trash" disabled active>Trash</b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav v-else>
-        <b-nav-item v-if="this.$store.getters.deletedTickets.length" href="#/trash">Trash</b-nav-item>
+        <b-nav-item v-if="this.$store.getters.deletedTicketsWithoutTheme.length" href="#/trash">Trash</b-nav-item>
         <b-nav-item v-else href="#/trash" disabled>Trash</b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav>

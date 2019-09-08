@@ -20,5 +20,8 @@ export default Vue.extend({
 				this.$router.push('/support')
 			}
 		}
+	},
+	created() {
+		this.$store.commit('updateCurrentTheme', 'all')
 	}
 })
