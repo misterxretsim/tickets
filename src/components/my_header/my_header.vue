@@ -16,10 +16,20 @@
       <b-navbar-nav>
         <b-nav-item href="#/login">Sign out</b-nav-item>
       </b-navbar-nav>
-      <b-form-input v-if="location() === '#/'" class="ml-auto" id="searching-input" list="my-list-id"></b-form-input>
-      <datalist id="my-list-id">
-        <option v-for="theme in this.$store.getters.themes" :key="theme.text">{{ theme.text }}</option>
-      </datalist>
+      <b-input-group
+        id="choose-group"
+        class="ml-auto"
+        v-if="location() === '#/'"
+      >
+        <b-form-select id="choosing-select" v-model="choosen" variant="outline-secondary">
+          <option :value="'all'" disabled>Choose theme</option>
+          <option :value="'all'">All themes</option>
+          <option v-for="theme in this.$store.getters.themes" :key="theme.text">{{ theme.text }}</option>
+        </b-form-select>
+        <b-input-group-append>
+          <b-button variant="outline-secondary" @click="onChoose">Choose</b-button>
+        </b-input-group-append>
+      </b-input-group>
     </b-collapse>
     <b-collapse id="nav-collapse" is-nav v-else>
       <b-navbar-nav v-if="location() === '#/'">
@@ -38,10 +48,20 @@
       <b-navbar-nav>
         <b-nav-item href="#/login">Sign out</b-nav-item>
       </b-navbar-nav>
-      <b-form-input v-if="location() === '#/'" class="ml-auto" id="searching-input" list="my-list-id"></b-form-input>
-      <datalist id="my-list-id">
-        <option v-for="theme in this.$store.getters.themes" :key="theme.text">{{ theme.text }}</option>
-      </datalist>
+      <b-input-group
+        id="choose-group"
+        class="ml-auto"
+        v-if="location() === '#/'"
+      >
+        <b-form-select id="choosing-select" v-model="choosen" variant="outline-secondary">
+          <option :value="'all'" disabled>Choose theme</option>
+          <option :value="'all'">All themes</option>
+          <option v-for="theme in this.$store.getters.themes" :key="theme.text">{{ theme.text }}</option>
+        </b-form-select>
+        <b-input-group-append>
+          <b-button variant="outline-secondary" @click="onChoose">Choose</b-button>
+        </b-input-group-append>
+      </b-input-group>
     </b-collapse>
   </b-navbar>
 </template>

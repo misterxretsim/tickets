@@ -3,12 +3,15 @@ import Vue from 'vue'
 export default Vue.extend({
 	data() {
 		return {
-			selected: null
+			choosen: 'all'
 		}
 	},
 	methods: {
 		location() {
 			return location.hash
+		},
+		onChoose() {
+			this.$store.commit('updateCurrentTheme', this.choosen)
 		}
 	}
 })

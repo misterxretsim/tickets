@@ -14,6 +14,9 @@ export default {
         },
         updateCurrentTicket(state, id) {
             state.currentTicket = id
+        },
+        updateCurrentTheme(state, theme) {
+            state.currentTheme = theme
         }
     },
     state: {
@@ -207,10 +210,8 @@ export default {
             {text: 'The fifth theme'},
             {text: 'The sixth theme'},
         ],
-        activeTickets: [],
-        activeTicketsByLogin: [],
         currentTicket: 1,
-        deletedTickets: []
+        currentTheme: 'all'
     },
     getters: {
         tickets: (state) => state.tickets,
@@ -222,25 +223,40 @@ export default {
             else return 'closed'
         },
         currentTicket: (state) => state.currentTicket,
+        currentTheme: (state) => state.currentTheme,
         activeTickets: (state) => {
-            let arr = [];
+            let arr = [], tmp = [];
             for (let i = 0; i < state.tickets.length; i++) {
                 if (state.tickets[i].status !== 'deleted') {
                     arr.push(state.tickets[i]);
                 }
             }
-            state.activeTickets = arr;
-            return state.activeTickets
+            if (state.currentTheme !== 'all') {
+                for (let i = 0; i < arr.length; i++) {
+                    if (arr[i].theme === state.currentTheme) {
+                        tmp.push(arr[i]);
+                    }
+                }
+                arr = tmp;
+            }
+            return arr
         },
         activeTicketsById: (state) => (id) => {
-            let arr = [];
+            let arr = [], tmp = [];
             for (let i = 0; i < state.tickets.length; i++) {
                 if (state.tickets[i].status !== 'deleted' && state.tickets[i].author === id) {
                     arr.push(state.tickets[i]);
                 }
             }
-            state.activeTicketsByLogin = arr;
-            return state.activeTicketsByLogin
+            if (state.currentTheme !== 'all') {
+                for (let i = 0; i < arr.length; i++) {
+                    if (arr[i].theme === state.currentTheme) {
+                        tmp.push(arr[i]);
+                    }
+                }
+                arr = tmp;
+            }
+            return arr
         },
         deletedTickets: (state) => {
             let arr = [];
@@ -249,8 +265,7 @@ export default {
                     arr.push(state.tickets[i]);
                 }
             }
-            state.deletedTickets = arr;
-            return state.deletedTickets
+            return arr
         }
     }
 }

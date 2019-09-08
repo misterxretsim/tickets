@@ -1,4 +1,8 @@
-#searching-input {
+#chooseing-input {
 	width: 250px;
-	border: 1px solid #ced4da;
+	border: 1px solid #6c757d;
+}
+
+#choose-group {
+	width: 332px;
 }

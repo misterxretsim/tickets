@@ -16,6 +16,7 @@
             id="input-title"
             type="text"
             placeholder="Title"
+            autocomplete="off"
           ></b-form-input>
         </b-form-group>
         <b-form-group label="Description:" label-for="textarea-1">
@@ -26,6 +27,7 @@
             placeholder="Describe the problem"
             rows="3"
             max-rows="10"
+            autocomplete="off"
           ></b-form-textarea>
         </b-form-group>
         <b-button block class="mt-4" variant="outline-primary" @click="onCreate">Create</b-button>
