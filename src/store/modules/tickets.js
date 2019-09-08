@@ -259,13 +259,30 @@ export default {
             return arr
         },
         deletedTickets: (state) => {
+            let arr = [], tmp = [];
+            for (let i = 0; i < state.tickets.length; i++) {
+                if (state.tickets[i].status === 'deleted') {
+                    arr.push(state.tickets[i]);
+                }
+            }
+            if (state.currentTheme !== 'all') {
+                for (let i = 0; i < arr.length; i++) {
+                    if (arr[i].theme === state.currentTheme) {
+                        tmp.push(arr[i]);
+                    }
+                }
+                arr = tmp;
+            }
+            return arr
+        },
+        deletedTicketsWithoutTheme: (state) => {
             let arr = [];
             for (let i = 0; i < state.tickets.length; i++) {
                 if (state.tickets[i].status === 'deleted') {
                     arr.push(state.tickets[i]);
                 }
             }
-            return arr
+            return arr;
         }
     }
 }

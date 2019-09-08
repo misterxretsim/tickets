@@ -32,9 +32,13 @@ export default Vue.extend({
 			this.onCheck()
 		},
 		onCheck() {
-			if (!this.$store.getters.deletedTickets.length) {
+			if (!this.$store.getters.deletedTicketsWithoutTheme.length) {
+				this.$store.commit('updateCurrentTheme', 'all')
 				this.$router.push('/')
 			}
 		}
+	},
+	created() {
+		this.$store.commit('updateCurrentTheme', 'all')
 	}
 })

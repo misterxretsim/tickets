@@ -51,7 +51,7 @@
       <b-input-group
         id="choose-group"
         class="ml-auto"
-        v-if="location() === '#/'"
+        v-if="location() === '#/' || location() === '#/trash'"
       >
         <b-form-select id="choosing-select" v-model="choosen" variant="outline-secondary">
           <option :value="'all'" disabled>Choose theme</option>
