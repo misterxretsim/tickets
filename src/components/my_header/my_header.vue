@@ -46,7 +46,7 @@
         <b-nav-item v-else href="#/trash" disabled>Trash</b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav>
-        <b-nav-item href="#/login">Sign out</b-nav-item>
+        <b-nav-item href="#/login" @click="clearAuth">Sign out</b-nav-item>
       </b-navbar-nav>
       <b-input-group
         id="choose-group"

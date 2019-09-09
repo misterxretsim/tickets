@@ -1,6 +1,10 @@
-import Vue from 'vue'
+import Vue 		from 'vue'
+import my_msg 	from './my_msg/my_msg.vue'
 
 export default Vue.extend({
+	components: {
+		my_msg
+	},
 	data() {
 		return {
 			input: ''

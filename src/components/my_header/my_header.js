@@ -12,6 +12,9 @@ export default Vue.extend({
 		},
 		onChoose() {
 			this.$store.commit('updateCurrentTheme', this.choosen)
+		},
+		clearAuth() {
+			this.$store.commit('clearAuth')
 		}
 	}
 })

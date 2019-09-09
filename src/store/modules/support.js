@@ -320,6 +320,7 @@ export default {
 	},
 	getters: {
 		letters: (state) => (id) => state.messages.find(msg => msg.ticket === id).letters,
-		messages: (state) => state.messagess
+		messages: (state) => state.messagess,
+		msgById: (state) => (id) => state.messages.find(msg => msg.ticket === id)
 	}
 }

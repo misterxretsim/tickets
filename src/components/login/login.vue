@@ -7,7 +7,7 @@
             <b-input-group prepend="✉️">
               <b-form-input
                 id="input-1"
-                @input="updateLogin"
+                v-model="login"
                 type="text"
                 required
                 placeholder="login"
@@ -18,7 +18,7 @@
             <b-input-group prepend="🔒">
               <b-form-input
                 id="input-2"
-                @input="updatePass"
+                v-model="pass"
                 type="password"
                 required
                 placeholder="password"
@@ -26,7 +26,7 @@
             </b-input-group>
           </b-form-group>
           <b-link to="/">
-            <b-button type="submit" block variant="outline-primary">Submit</b-button>
+            <b-button type="submit" block variant="outline-primary" @click="updateAuth">Submit</b-button>
           </b-link>
         </b-form>
       </b-col>

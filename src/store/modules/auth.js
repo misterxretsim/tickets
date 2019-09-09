@@ -1,10 +1,12 @@
 export default{
     mutations: {
-        updateLogin(state, login) {
-            state.auth.login = login
+        updateAuth(state, obj) {
+            state.auth.login = obj.login
+            state.auth.pass = obj.pass
         },
-        updatePass(state, pass) {
-            state.auth.pass = pass
+        clearAuth(state) {
+            state.auth.login = ''
+            state.auth.pass = ''
         }
     },
     state: {
